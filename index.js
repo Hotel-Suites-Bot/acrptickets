@@ -54,4 +54,4 @@ client.on('messageCreate', async (message) => {
     command.execute(message, args, client);
 });
 
-client.login(config.token);
+client.login(process.env.BOT_TOKEN);
